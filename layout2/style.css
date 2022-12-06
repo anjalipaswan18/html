@@ -1,43 +1,112 @@
 *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box
 }
-.content1{
+
+.content{
     width: 100%; 
     height: 100%;
-}
+    margin: 0;
+    padding:0 ;
+}  
 .first{
-    width: 1400px;
-    height: 280px;
+     width:89%; 
+    height: 250px;
     background-color:rgb(217,214,214) ;
-    margin-left:70px ;
-    margin-top: 50px;
-    margin-right:20px ;
+     margin-left:70px ;
+     margin-top: 40px;
+    margin-right:60px ; 
+    padding:24px 24px ;
 }
-#btn1{
+.card-title{
+    margin-left:15px;
+}
+.paragraph{
+    margin-left:15px
+}
+.space{
+    margin-left:66px;
+    margin-right:90px;
+}
+ .btn1{
     margin-left: 70px;
-}
-h1{
-    margin-top: 50px;
-    color: black;
-    margin-left :70px; 
-}
-p{
-    margin-left: 70px;
-    margin-top:50px ;
-}
-hr{
-    margin-bottom:80px ;
-}
-h3{
+    background-color:skyblue ;
+    border:skyblue;
+} 
+.heading2{
     margin-left:70px ;
-}
+} 
 .card{
-    margin-left:70px ;
+    margin-left:60px ;
     height: 300px;
-    width:300px ;
+    width: 280px;
+    padding:2px ;
+
 }
 .card1{
     display: flex;
+     padding:20px;
+
+}
+.two{
+    margin-top:80px; 
+    margin-left:55px;
+    color:rgb(187, 186, 186); 
+}
+@media screen and (max-width:1440px){
+    *{
+        margin: 0;
+        padding:0;
+    }
+     .content{
+        width: 100%; 
+        height: 100%;
+        margin: 0;
+        padding:0 ;
+    }  
+    .first{
+         width:93%; 
+        height: 250px;
+        background-color:rgb(217,214,214) ;
+         margin-left:70px ;
+         margin-top: 40px;
+        margin-right:60px ; 
+        padding:24px 24px ;
+    }
+    .card-title{
+        margin-left:15px;
+    }
+    .paragraph{
+        margin-left:15px
+    }
+    .space{
+        margin-left:66px;
+        margin-right:90px;
+    }
+     .btn1{
+        margin-left: 70px;
+        background-color:skyblue ;
+        border:skyblue;
+    } 
+    .heading2{
+        margin-left:70px ;
+    } 
+    .card{
+        margin-left:60px ;
+        height: 300px;
+        width: 280px;
+        padding:2px ;
+    
+    }
+    .card1{
+        display: flex;
+         padding:20px;
+    
+    }
+    .two{
+        margin-top:80px; 
+        margin-left:55px;
+        color:rgb(187, 186, 186); 
+    } 
 }
